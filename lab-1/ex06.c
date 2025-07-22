@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-
-    printf("Decimal : %d\n", 35);
-    printf("Octal : %o\n", 35);
-    printf("Hexadecimal : %x\n", 35);
+    int x= 35 ;
+    printf("Decimal : %d\n", x);
+    printf("Octal : %o\n", x);
+    printf("Hexadecimal : %x\n", x);
     return 0;
 }

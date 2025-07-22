@@ -8,6 +8,6 @@ int main(){
     printf("Enter the third number\n");
     scanf ("%f" , &d);
     c = a + b + d ;
-    printf("%.1f + %.1f+%.1f = %.1f\n", a, b, c, d);
+    printf("%.1f + %.1f+%.1f = %.1f\n", a, b, d, c);
     return 0;
 }
