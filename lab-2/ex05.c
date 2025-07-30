@@ -14,6 +14,8 @@
     printf("Hi everyone.");
     printf("This is%s",ch1);
     printf("From%s",ch2);
-    printf("From%s",ch2);
+    printf("I am%d",age);
+    printf(" years old and my height is %f cm tall.",height);
+   
     return(0);
  }
