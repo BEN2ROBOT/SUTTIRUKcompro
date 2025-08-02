@@ -16,8 +16,6 @@ int main() {
         }
         printf("\n");
     }
-
- 
     int a = matrix[0][0];
     int b = matrix[0][1];
     int c = matrix[0][2];
@@ -27,7 +25,7 @@ int main() {
     int g = matrix[2][0];
     int h = matrix[2][1];
     int i2 = matrix[2][2];
-    int de = a * (e * i2 - f * h) - b * (d * i2 - f * g) + c * (d * h - e * g);
+    int de = a * (e *i2 - f*h) - b*(d*i2 -f*g) + c*(d*h-e*g);
     printf("Determinant = %d\n", de);
     return 0;
 }
