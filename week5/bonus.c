@@ -1,6 +1,6 @@
 #include <stdio.h>
    int main (){
-    int choice , depo , with ;
+    int choice =0 , depo , with ;
     int balance = 0 ;
  while (choice!=4)
  {
@@ -38,13 +38,6 @@
     }
         
          }
-         
-     
-    
-    
-    
-
-    
 }
 printf("Choose an option: %d\n",choice);
 printf("Thank you for using the ATM.");
